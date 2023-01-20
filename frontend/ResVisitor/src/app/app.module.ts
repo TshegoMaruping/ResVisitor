@@ -2,18 +2,20 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { TshegoComponent } from './component/tshego/tshego.component';
-import { LesibaComponent } from './component/lesiba/lesiba.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { LandingComponent } from './landing/landing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TshegoComponent,
-    LesibaComponent,
-    
+    LoginComponent,
+    RegisterComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
