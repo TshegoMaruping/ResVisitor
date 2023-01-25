@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { LandingComponent } from './landing/landing.component';
+import { AppRoutingModule } from './app-routing.modules';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,10 @@ import { LandingComponent } from './landing/landing.component';
     LandingComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule
+    
 
   ],
   providers: [],
