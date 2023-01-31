@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResVisitor2", "ResVisitor2\ResVisitor2.csproj", "{BCB251FC-80B4-45B3-97A0-A8AF66DBE60C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCB251FC-80B4-45B3-97A0-A8AF66DBE60C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB251FC-80B4-45B3-97A0-A8AF66DBE60C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB251FC-80B4-45B3-97A0-A8AF66DBE60C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB251FC-80B4-45B3-97A0-A8AF66DBE60C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAD4EC8B-4A60-44F2-8475-1BBB2885882C}
+	EndGlobalSection
+EndGlobal

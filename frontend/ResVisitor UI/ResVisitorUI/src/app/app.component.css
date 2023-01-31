@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    background-image:URL("assets/web image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+  
+  
+  h1 {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  p {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .copy {
+    font-size: 12px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color:white;
+  }
+  
+  .bottom-links {
+    display: flex;
+  }
+  
