@@ -1,0 +1,32 @@
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Registration Form</title>
+    </head>
+    <body>
+    
+    <div class="container">
+    
+    
+    
+    <form method="post">
+    <h3> Registration</h3>
+    <select>
+        <option value="usertype">Admin</option>
+        <option value="usertype">user</option>
+      </select>
+    <input type="text" name="Name" placeholder=" Name" required>
+    <input type="text" name="Surname" placeholder=" Surname" required>
+    <input type="text" name="idNo" placeholder=" ID Number" required>
+    <input type="text" name="Email" placeholder="Email Address" required>
+    <input type="text" name="password" placeholder="password" required>
+    
+    <button type="submit">Register</button>
+    
+    
+    <a href="Login.component.html"></a>
+     <p>Already have an account? <a routerLink="/login">Login Here</a></p>
+    </form>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    
+    </body>
